@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -ltr /workspace/app
+ls -ltr /workspace/gopath
 env
