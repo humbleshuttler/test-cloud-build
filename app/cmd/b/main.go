@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/iamsubratp/test-cloud-build/src/b"
+	"github.com/iamsubratp/test-cloud-build/app/b"
 )
 
 func main() {
