@@ -2,7 +2,7 @@ steps:
   - name: 'ubuntu'
     args: ['bash', './app/my-script.sh']
   - name: 'gcr.io/cloud-builders/go'
-    args: ['install', './cmd/...']
+    args: ['install', './app/cmd/...']
     env: ['PROJECT_ROOT=github.com/iamsubratp/test-cloud-build/app']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '--tag=gcr.io/$PROJECT_ID/test-cloud-build', '.']
